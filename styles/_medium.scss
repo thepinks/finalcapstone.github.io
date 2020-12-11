@@ -1,0 +1,42 @@
+@import './variables';
+
+
+nav {
+    div {
+        align-items: center;
+        justify-content: flex-start;
+        a {
+            width: 20%;
+        }
+    }
+}
+
+.ratings {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    div{
+        label {
+            margin-right: 30px;
+        }
+    }
+}
+
+.search-results {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.movies {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.account {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    button {
+        width: 50%;
+    }
+}

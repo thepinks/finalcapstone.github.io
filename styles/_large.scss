@@ -1,0 +1,46 @@
+@import './variables';
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        width: 75rem;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        width: 75rem;
+        a {
+            width: 10%;
+        }
+    }
+}
+
+main {
+    width: 75rem;
+    align-items: flex-start;
+    h1 {
+        width: 100%
+    }
+    .search {
+        width: 50%;
+    }
+}
+
+.search-results {
+    width: 100%;
+}
+
+#categories {
+    width: 30%;
+}
+
+.account {
+    width: 50%;
+}
